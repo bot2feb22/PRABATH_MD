@@ -3,8 +3,8 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split(",")
-global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
+global.owner = process.env.OWNER_NUMBER.split("923250266034")
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://test:test@cluster0.lwofaad.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
 global.email = 'sam@sec.live'
 global.github = 'https://github.com/prabathLK/PRABATH-MD'
@@ -21,20 +21,20 @@ module.exports = {
   sudo: process.env.SUDO || '94762280384',
   alivepic: process.env.ALIVE_IMG || 'https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg',
   alivemsj: process.env.ALIVE_MSJ || '*POWERD BY PRABATH-MD* 🎊',
-  ownername:process.env.OWNER_NAME || 'PRABATH',
+  ownername:process.env.OWNER_NAME || '➤🌟⃢🇦𝕝𝕚 🌟⃢🇲𝕚𝕣𝕫𝕒➤⃟*',
   sessionName: process.env.SESSION_ID || 'PUT-HERE',
   author: process.env.PACK_INFO.split(";")[0] || 'author', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
   packname: process.env.PACK_INFO.split(";")[1] || 'Name',
-  autoreaction: process.env.AUTO_REACTION || 'off',
+  autoreaction: process.env.AUTO_REACTION || 'on',
   antibadword : process.env.ANTI_BAD_WORD || 'fuck,huth,fucking,huththa,huththo,hukanna,fucked,pakaya,pako,ponnaya,ponnayo,kariya,kariyo,huththaa,hutta',
   alwaysonline: process.env.ALWAYS_ONLINE || 'true',
   antifake : process.env.FAKE_COUNTRY_CODE || '',
   readmessage: process.env.READ_MESSAGE || true,
   HANDLERS: process.env.PREFIX || ['.'],
-  warncount : process.env.WARN_COUNT || 3,
+  warncount : process.env.WARN_COUNT || 1,
   disablepm: process.env.DISABLE_PM || "flase",
-  levelupmessage: process.env.LEVEL_UP_MESSAGE || 'false',
+  levelupmessage: process.env.LEVEL_UP_MESSAGE || 'true',
   antilink: process.env.ANTILINK_VALUES || 'chat.whatsapp.com',
   antilinkaction: process.env.ANTILINK_ACTION || 'remove',
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || 'put your herokuapp name',
